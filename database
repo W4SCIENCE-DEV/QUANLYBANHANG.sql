@@ -145,7 +145,7 @@ INSERT INTO KHACHHANG(MAKH, HOTEN, NGSINH, NGDK, DIACHI, SDT, CMND, EMAIL) VALUE
 ('1137', N'ĐINH THỊ TÚ', '08-04-2000', '05-01-2019',N'133, Lê Văn Sỹ, Q3 ,Tp HCM', '0456321546', '325636423', 'NGUYENNGUYEN0235@GMAIL.COM'),
 ('1138', N'PHẠM THU HÀ', '08-10-2000', '05-01-2019',N'204, Lê Lợi, Q1, Tp HCM', '0456321546', '325636423', 'THUHA0986@GMAIL.COM'),
 ('1139', N'NGUYỄN THỊ THU', '08-11-2000', '04-01-2019',N'102, 3 Tháng 2, Q5 ,Tp HCM', '0456321546', '325636423', 'THUTHU879@GMAIL.COM'),
-('1140', N'NGUYỄN PHƯƠNG TRÂM', '08-05-2000',N'250, An Dương Vương, Q5, Tp HCM', '04-01-2019', '0456321546', '325636423', 'TRAMTRAM0980@GMAIL.COM'),
+('1140', N'NGUYỄN PHƯƠNG TRÂM', '08-05-2000','04-01-2019,'N'250, An Dương Vương, Q5, Tp HCM', '0456321546', '325636423', 'TRAMTRAM0980@GMAIL.COM'),
 ('1141', N'VÕ TÚ', '08-30-2000', '04-01-2019',N'30, Bùi Đình Túy, Q5, Tp HCM', '0456321546', '325636423', 'TUTU1234@GMAIL.COM'),
 ('1142', N'PHẠM DUY AN', '08-05-2000', '04-01-2019',N'204, Nguyễn Xí, Q1, Tp HCM', '0456321546', '325636423', 'ANAN01290@GMAIL.COM'),
 ('1143', N'TRẦN THANH THANH', '08-09-2000', '04-01-2019',N'89, Nguyễn Thị Minh Khai, Q2, Tp HCM', '0456321546', '325636423', 'THANHTHANH1234@GMAIL.COM'),
@@ -174,40 +174,40 @@ INSERT INTO NHANVIEN(MANV, HOTEN, NGSINH, BANGCAP, DIACHI, SDT, BOPHAN, NGVL) VA
 
 SELECT * FROM SANPHAM
 INSERT INTO SANPHAM(MASP, TENSP, HANGSX, SOLUONG, GIA, NGNSP, NGUOITN) VALUES
-('01','iPhone 11 Pro Max 64GB',N'Hàng quốc Tế','50','20.000.000','09-09-2020',N'Huỳnh Thị Hoa'),
-('02','Samsung Galaxy Note 20 Ultra',N'Hàng quốc Tế','40','29.990.000','10-09-2020',N'Mai Lan Anh'),
-('03','OPPO Reno4',N'Hàng quốc Tế','45','8.490.000','09-08-2020',N'Nguyễn Tiến Đạt'),
-('04','Vsmart Active1',N'Hàng nội địa','30','4.990.000','03-05-2020',N'Nguyễn Tiến Đạt'),
+('01','iPhone 11 Pro Max 64GB',N'Hàng quốc Tế','50','20000000','09-09-2020',N'Huỳnh Thị Hoa'),
+('02','Samsung Galaxy Note 20 Ultra',N'Hàng quốc Tế','40','29990000','10-09-2020',N'Mai Lan Anh'),
+('03','OPPO Reno4',N'Hàng quốc Tế','45','8490000','09-08-2020',N'Nguyễn Tiến Đạt'),
+('04','Vsmart Active1',N'Hàng nội địa','30','4990000','03-05-2020',N'Nguyễn Tiến Đạt'),
 ('05','Vsmart Joy 1+',N'Hàng nội địa','30','3.390.000','09-09-2020',N'Mai Lan Anh'),
-('06','iPhone 12 Mini 256GB',N'Hàng quốc Tế','50','25.990.000','10-09-2020',N'Mai Lan Anh'),
-('07','Vsmart Active1+',N'Hàng nội địa','30','6.290.000','09-09-2020',N'Nguyễn Tiến Đạt'),
-('08','Samsung Galaxy Z Flip',N'Hàng quốc Tế','36.000.000','55','06-02-2020',N'Huỳnh Thị Hoa'),
-('09','Samsung Galaxy A21s',N'Hàng quốc Tế','40','5.290.000','06-02-2020',N'Huỳnh Thị Hoa')
+('06','iPhone 12 Mini 256GB',N'Hàng quốc Tế','50','25990000','10-09-2020',N'Mai Lan Anh'),
+('07','Vsmart Active1+',N'Hàng nội địa','30','6290000','09-09-2020',N'Nguyễn Tiến Đạt'),
+('08','Samsung Galaxy Z Flip',N'Hàng quốc Tế','36000000','55','06-02-2020',N'Huỳnh Thị Hoa'),
+('09','Samsung Galaxy A21s',N'Hàng quốc Tế','40','5290000','06-02-2020',N'Huỳnh Thị Hoa')
 
 SELECT * FROM HOADON
 INSERT INTO HOADON(SOHD, MAKH, NGXHD, MANV, DONGIA) VALUES
-('001','1111','09-10-2020','45687493','20.000.000'),
-('002','1121','10-10-2020','45567235','29.990.000'),
-('003','1113','09-11-2020','45452356','25.990.000'),
-('004','1112','06-06-2020','45324234','4.990.000'),
-('005','1114','09-05-2021','45687493','36.000.000'),
-('006','1130','10-09-2021','45457457','6.290.000'),
-('007','1132','09-02-2020','45457458','5.290.000'),
-('008','1144','10-10-2020','45335564','3.390.000'),
-('009','1115','09-09-2020','45796735','8.490.000'),
-('010','1120','10-10-2020','45011040','29.990.000')
+('001','1111','09-10-2020','45687493','20000000'),
+('002','1121','10-10-2020','45567235','29990000'),
+('003','1113','09-11-2020','45452356','25990000'),
+('004','1112','06-06-2020','45324234','4990000'),
+('005','1114','09-05-2021','45687493','36000000'),
+('006','1130','10-09-2021','45457457','6290000'),
+('007','1132','09-02-2020','45457458','5290000'),
+('008','1144','10-10-2020','45335564','3390000'),
+('009','1115','09-09-2020','45796735','8490000'),
+('010','1120','10-10-2020','45011040','29990000')
 
 SELECT * FROM TRACUU
 INSERT INTO TRACUU(MASP, TENSP,  HANGSX, RAM, ROM, PIN, CPU) VALUES
 ('01','iPhone 11 Pro Max 64GB',N'Hàng quốc Tế', '4GB', '64GB', '3969mAh', 'A13 Bionic'),
-('02','Samsung Galaxy Note 20 Ultra',N'Hàng quốc Tế', '12GB', '256GB', '4500mAh', 'Ecyno 990 8 nhân'),
-('03','OPPO Reno4',N'Hàng quốc Tế', '8GB', '256GB', '4000mAh', 'Snapdragon 720G 8 nhân'),
-('04','Vsmart Active1',N'Hàng nội địa', '4GB', '64GB', '3100mAh', 'Snapdragon 660 8 nhân'),
-('05','Vsmart Joy 1+',N'Hàng nội địa', '3GB','32GB','3000mAh','Snapdragon 435 8 nhân'),
-('06','iPhone 12 Mini 256GB',N'Hàng quốc Tế', '4GB', '256GB', 'ĐANG CẬP NHẬT', 'A14 Bionic'),
-('07','Vsmart Active1+',N'Hàng nội địa', '6GB', '64GB', '3650mAh', 'Snapdragon 660 8 nhân'),
-('08','Samsung Galaxy Z Flip',N'Hàng quốc Tế', '8GB', '256GB', '3300mAh', 'Qualcomm Snapdragon 855 8 nhân'),
-('09','Samsung Galaxy A21s',N'Hàng quốc Tế', '6GB', '64GB', '5000mAh', 'Exynos 850 8 nhân')
+('02','Samsung Galaxy Note 20 Ultra',N'Hàng quốc Tế', '12GB', '256GB', '4500mAh', N'Ecyno 990 8 nhân'),
+('03','OPPO Reno4',N'Hàng quốc Tế', '8GB', '256GB', '4000mAh', N'Snapdragon 720G 8 nhân'),
+('04','Vsmart Active1',N'Hàng nội địa', '4GB', '64GB', '3100mAh', N'Snapdragon 660 8 nhân'),
+('05','Vsmart Joy 1+',N'Hàng nội địa', '3GB','32GB','3000mAh',N'Snapdragon 435 8 nhân'),
+('06','iPhone 12 Mini 256GB',N'Hàng quốc Tế', '4GB', '256GB', N'ĐANG CẬP NHẬT', 'A14 Bionic'),
+('07','Vsmart Active1+',N'Hàng nội địa', '6GB', '64GB', '3650mAh', N'Snapdragon 660 8 nhân'),
+('08','Samsung Galaxy Z Flip',N'Hàng quốc Tế', '8GB', '256GB', '3300mAh', N'Qualcomm Snapdragon 855 8 nhân'),
+('09','Samsung Galaxy A21s',N'Hàng quốc Tế', '6GB', '64GB', '5000mAh', N'Exynos 850 8 nhân')
 
 SELECT * FROM THONGTINBAOHANH
 INSERT INTO THONGTINBAOHANH(MASP, TENSP, NGHH, HANGSX, TENNM, MAKH, NGDK, SDT) VALUES
